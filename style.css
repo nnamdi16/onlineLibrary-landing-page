@@ -1,0 +1,248 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans';
+}
+
+a {
+	text-decoration: none;
+}
+
+.header_title {
+	height: 150px;
+	background-color: #222530;
+	display: flex;
+	flex-direction: row;
+}
+
+.header_title h1 {
+	margin: 0;
+	color: white;
+	font-size: 50px;
+}
+
+.header_title h3 {
+	margin: 0;
+	color: white;
+	font-size: 30px;
+	display: inline;
+}
+
+.logo {
+	width: 15%;
+	margin-top: 40px;
+	padding-left: 30px;
+}
+
+.app {
+	width: 15%;
+	margin-top: 40px;
+	font-family: 'Open Sans';
+	color: white;
+	padding-left: 10px;
+}
+
+.app h4 {
+	margin: 0;
+}
+
+.menu {
+	width: 70%;
+	margin-top: 40px;
+	padding-left: 100px;
+	font-family: 'Open Sans';
+	font-size: 90%;
+}
+
+.menu a {
+	color: white;
+}
+
+.menu a:hover {
+	color: #7aa7e2;
+}
+
+.article1 h1 {
+	color: #7aa7e2;
+	margin-top: 0;
+}
+
+.article1 h1 span {
+	color: #c0c0c0;
+}
+
+.article1 h4 {
+	color: #7aa7e2;
+	margin-top: 0;
+}
+
+.article1 h4 span {
+	color: #c0c0c0;
+}
+
+.banner {
+	height: 400px;
+	background-image: url(./images/library4886901280.jpg);
+}
+
+.banner_bottom {
+	background-color: #f2d13e;
+	height: 150px;
+}
+
+.banner_bottom h1 {
+	color: white;
+	margin: 0;
+}
+
+/* 
+img {
+	width: 75%;
+} */
+nav {
+	/* background-color: #525252; */
+	height: 50px;
+}
+
+nav ul {
+	margin: 0px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+	/*margin-top:-20px;*/
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	/* border: 2px solid white; */
+	color: white;
+}
+
+.main_content {
+	display: flex;
+	height: 600px;
+	/* background-image:
+		linear-gradient(#e8e8e8,
+		#e8e8e8 10%,
+		#fdfdfd 80%); */
+	flex-direction: row;
+}
+
+.content {
+	width: 60%;
+	padding: 20px 70px;
+	font-family: 'Open Sans';
+	/*border:1px solid green;*/
+}
+
+.widgets {
+	width: 30%;
+	/*border:1px solid red;*/
+}
+
+.small_banner1 {
+	/*background-color:#f1f1f1;*/
+	height: 35%;
+	/*border:1px solid black;*/
+}
+
+.small_banner2 {
+	background-color: #f9692c;
+	height: 30%;
+}
+
+.service h1 {
+	color: #7aa7e2;
+}
+
+.book_review1 {
+	height: auto;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.book_review2 {
+	height: 100px;
+	background-color: black;
+}
+
+.book_review3 {
+	height: 150px;
+	/* background-color: #243238; */
+	background-image: url(./images/picture2.jpg);
+}
+
+.gallery {
+	padding: 50px 50px;
+}
+
+.gallery_title {
+	/* font-size: 150%; */
+	color: #333745;
+	font-family: 'Open Sans';
+	border-bottom: 1px solid #ebeced;
+	font-weight: 300;
+}
+
+.gallery_title h1 {
+	margin: 0;
+}
+
+.main_gallery {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* padding: 0 0 0 90px; */
+}
+
+.book_title {
+	padding: 20px 10px;
+	/* width: 260px; */
+}
+
+.book_title p {
+	font-size: 80%;
+	font-weight: 500;
+}
+
+.book_title1 {
+	padding: 20px 10px;
+}
+
+.book_title1 p {
+	font-size: 80%;
+	font-weight: 500;
+}
+
+.book_comment {
+	background-color: #243238;
+	height: auto;
+	z-index: 1;
+}
+
+.flexing {
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	background-color: #222530;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.end_note {
+	color: white;
+	font-family: 'Open Sans';
+}
+
+.end_note h4 {
+	margin: 15px;
+	font-weight: 100;
+	font-size: 70%;
+}
+
+.social_media img {}
